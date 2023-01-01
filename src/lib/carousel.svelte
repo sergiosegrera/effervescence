@@ -78,6 +78,10 @@
 			margin-left: 0px;
 		}
 
+		h2 {
+			margin-left: 8px;
+		}
+
 		#images {
 			gap: 64px;
 		}
