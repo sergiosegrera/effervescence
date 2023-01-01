@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%sveltekit.assets%/favicon.svg" />
+		<link rel="apple-touch-icon" href="%sveltekit.assets%/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<title>Effervescence Cocktail Club</title>
+		<meta
+			name="description"
+			content="The premier cocktail club for the discerning drinker. Here at Effervescence, we take our cocktails seriously, crafting unique and delicious beverages that will tantalize your taste buds and elevate your evening. Proudly located in Wellington Street, Montreal"
+		/>
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			rel="preload"
+			as="style"
+			href="https://fonts.googleapis.com/css2?family=Caveat&family=Jost&display=swap"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Caveat&family=Jost&display=swap"
+			rel="stylesheet"
+			media="print"
+			onload="this.media='all'"
+		/>
+		<noscript>
+			<link
+				rel="stylesheet"
+				href="https://fonts.googleapis.com/css2?family=Caveat&family=Jost&display=swap"
+			/>
+		</noscript>
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+			}
+
+			body {
+				font-family: 'Jost', sans-serif;
+				background-color: black;
+				animation: fade-in 2s;
+			}
+
+			@keyframes fade-in {
+				0% {
+					opacity: 0;
+				}
+				100% {
+					opacity: 1;
+				}
+			}
+		</style>
+
+		%sveltekit.head%
+	</head>
+
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">%sveltekit.body%</div>
+	</body>
+</html>
