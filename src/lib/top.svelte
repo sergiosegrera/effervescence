@@ -6,7 +6,9 @@
 
 <header>
 	<img alt="Main Logo" src={logo} width="149" height="56" />
-	<a href="/fr">FR</a>
+	<nav>
+		<a href="/fr">FR</a> / <a href="/">EN</a>
+	</nav>
 </header>
 <div>
 	<img id="background" src={background} alt="Background" width="768" height="900" />
@@ -18,6 +20,10 @@
 		align-items: center;
 		justify-content: space-between;
 		padding: 32px;
+	}
+
+	nav {
+		color: white;
 	}
 
 	a,
